@@ -15,14 +15,15 @@ CREATE TABLE IF NOT EXISTS services (
 );
 
 INSERT IGNORE INTO services (id, nom_ar, nom_fr) VALUES
-(1,  'الموارد البشرية',         'Ressources Humaines'),
-(2,  'المديرية العامة',         'Direction Générale'),
-(3,  'الشؤون الجنائية',         'Affaires Criminelles'),
-(4,  'الشؤون المدنية',          'Affaires Civiles'),
-(5,  'المالية والمحاسبة',       'Finance et Comptabilité'),
-(6,  'تكنولوجيا المعلومات',     'Technologies de l''Information'),
-(7,  'الأرشيف والتوثيق',        'Archives et Documentation'),
-(8,  'المصلحة القانونية',       'Service Juridique');
+(1,  'المديرية الإقليمية للعدل بمكناس',                    'Direction Régionale de la Justice de Meknès'),
+(2,  'كتابة الضبط بالمحكمة الابتدائية بأزرو',              'Greffe du Tribunal de Première Instance d''Azrou'),
+(3,  'كتابة الضبط بالمحكمة الابتدائية بالحاجب',            'Greffe du Tribunal de Première Instance d''El Hajeb'),
+(4,  'كتابة الضبط بالمحكمة الابتدائية بمكناس',             'Greffe du Tribunal de Première Instance de Meknès'),
+(5,  'كتابة الضبط بمحكمة الاستئناف بمكناس',                'Greffe de la Cour d''Appel de Meknès'),
+(6,  'كتابة النيابة العامة بالمحكمة الابتدائية بأزرو',     'Parquet du Tribunal de Première Instance d''Azrou'),
+(7,  'كتابة النيابة العامة بالمحكمة الابتدائية بالحاجب',   'Parquet du Tribunal de Première Instance d''El Hajeb'),
+(8,  'كتابة النيابة العامة بالمحكمة الابتدائية بمكناس',    'Parquet du Tribunal de Première Instance de Meknès'),
+(9,  'كتابة النيابة العامة بمحكمة الاستئناف بمكناس',       'Parquet de la Cour d''Appel de Meknès');
 
 -- ── المتدربون ─────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS stagiaires (
