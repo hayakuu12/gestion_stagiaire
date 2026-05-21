@@ -31,27 +31,12 @@ function subExpanded(array $actions, string $current): string {
         <img src="assets/images/logo_wazara.svg" alt="وزارة العدل" class="navbar-logo">
         <span>نظام إدارة التداريب والتكوين</span>
     </a>
-    <span class="subtitle d-none d-md-block">
-        <img src="assets/images/logo_royaume.svg" alt="المملكة المغربية" class="navbar-logo-royaume">
-        <span>وزارة العدل – المملكة المغربية</span>
-    </span>
 </header>
 
 <div class="d-flex">
 <!-- Sidebar -->
 <nav id="sidebar">
   <div class="sidebar-inner">
-    <div class="sidebar-brand">
-        <div class="av">
-            <img src="assets/images/logo_wazara.svg" alt="وزارة العدل" class="sidebar-logo">
-        </div>
-        <div class="brand-text">
-            <div class="brand-title">وزارة العدل</div>
-            <div class="brand-sub">المملكة المغربية</div>
-            <div class="brand-sub">نظام التداريب والتكوين</div>
-        </div>
-    </div>
-
     <ul class="sidebar-nav list-unstyled mb-0">
 
         <!-- Dashboard -->
