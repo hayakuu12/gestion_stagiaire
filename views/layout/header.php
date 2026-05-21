@@ -28,11 +28,12 @@ function subExpanded(array $actions, string $current): string {
         <i class="fas fa-bars fa-lg"></i>
     </button>
     <a href="index.php" class="brand">
-        <i class="fas fa-balance-scale"></i>
+        <img src="assets/images/logo_wazara.svg" alt="وزارة العدل" class="navbar-logo">
         <span>نظام إدارة التداريب والتكوين</span>
     </a>
     <span class="subtitle d-none d-md-block">
-        <i class="fas fa-landmark me-1"></i> وزارة العدل
+        <img src="assets/images/logo_royaume.svg" alt="المملكة المغربية" class="navbar-logo-royaume">
+        <span>وزارة العدل – المملكة المغربية</span>
     </span>
 </header>
 
@@ -41,9 +42,12 @@ function subExpanded(array $actions, string $current): string {
 <nav id="sidebar">
   <div class="sidebar-inner">
     <div class="sidebar-brand">
-        <div class="av"><i class="fas fa-balance-scale"></i></div>
+        <div class="av">
+            <img src="assets/images/logo_wazara.svg" alt="وزارة العدل" class="sidebar-logo">
+        </div>
         <div class="brand-text">
             <div class="brand-title">وزارة العدل</div>
+            <div class="brand-sub">المملكة المغربية</div>
             <div class="brand-sub">نظام التداريب والتكوين</div>
         </div>
     </div>

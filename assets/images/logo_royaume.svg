@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" width="120" height="60">
+  <!-- Star of Morocco (simplified) -->
+  <polygon points="60,8 63.5,19 75,19 66,26 69.5,37 60,30 50.5,37 54,26 45,19 56.5,19" fill="#c8a84b"/>
+  <!-- Crescent -->
+  <path d="M48,42 Q60,58 72,42 Q64,50 56,50 Z" fill="#c8a84b"/>
+  <!-- Text -->
+  <text x="60" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#1a3a6b" font-weight="bold">المملكة المغربية</text>
+</svg>
